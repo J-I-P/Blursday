@@ -27,6 +27,8 @@ jobs:
           date +%Y-%m-%d >> README.md
           week=$(date +%A)
           
+          echo "${{week}}"
+          
           if [ $week == 'Monday' ]; then
             echo -n "It's Monday Blue...QAQ" >> README.md
           elif [ $week == 'Tuesday' ]; then
