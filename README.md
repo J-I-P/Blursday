@@ -1,4 +1,4 @@
 Today is ...
-2023-03-14
+2023-03-15
 
-Tuesdays are the days when people really get the ball rolling. Fighting!!!
+Happy Hump Day!! Here’s only two days left until the weekend!!!
