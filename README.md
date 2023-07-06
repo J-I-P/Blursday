@@ -1,4 +1,4 @@
 Today is ...
-2023-07-05
+2023-07-06
 
-Happy Hump Day!! Here’s only two days left until the weekend!!!
+Thirsty Thursday, but i don't drink...
