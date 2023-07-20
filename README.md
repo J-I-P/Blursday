@@ -1,4 +1,4 @@
 Today is ...
-2023-07-18
+2023-07-20
 
-Tuesdays are the days when people really get the ball rolling. Fighting!!!
+Thirsty Thursday, but i don't drink...
