@@ -1,4 +1,4 @@
 Today is ...
-2023-11-20
+2023-11-21
 
-It's Monday Blue...QAQ
+Tuesdays are the days when people really get the ball rolling. Fighting!!!
