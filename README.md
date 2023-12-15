@@ -1,4 +1,4 @@
 Today is ...
-2023-12-14
+2023-12-15
 
-Thirsty Thursday, but i don't drink...
+T.G.I.F. I'm in love <3
