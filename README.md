@@ -1,4 +1,4 @@
 Today is ...
-2024-01-17
+2024-01-18
 
-Happy Hump Day!! Here’s only two days left until the weekend!!!
+Thirsty Thursday, but i don't drink...
