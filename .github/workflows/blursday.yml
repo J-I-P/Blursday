@@ -30,9 +30,7 @@ jobs:
           week=$(date +%A)
           
           echo $week
-          echo -e "```" >> README.md
           cat today.svg >> README.md
-          echo -e "```" >> README.md
           
           # if [ $week == 'Monday' ]; then
           #   echo -e "\nIt's Monday Blue...QAQ" >> README.md
