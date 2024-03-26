@@ -24,7 +24,7 @@ jobs:
       - name: Modify date
         run: |
           today=$(date +%Y-%m-%d)
-          date '+Current Date: %F%nCurrent Time: %H:%M:%S' 
+          date '+Current Date: %F%nCurrent Time: %H:%M:%S' >> README.md
           curl 'https://wttr.in/taipei?F1T' > today.txt
           week=$(date +%A)
           echo $week
