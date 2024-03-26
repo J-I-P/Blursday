@@ -24,7 +24,7 @@ jobs:
       - name: Modify date
         run: |
           today=$(date +%Y-%m-%d)
-          TZ="Asia/Taipei" date '+Current Date: %F%n'   >> README.md
+          TZ="Asia/Taipei" date '+Current Date: %F%n'   > README.md
           echo -e '\n' >> README.md
           TZ="Asia/Taipei" date '+Current Time: %H:%M:%S' >> README.md
           curl 'https://wttr.in/taipei?F1T' > today.txt
