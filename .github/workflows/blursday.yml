@@ -14,7 +14,7 @@ jobs:
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
-      - name: Check timezone
+      - name: Set timezone
         uses: MathRobin/timezone-action@v1.1
         with:
           timezoneLinux: 'Asia/Taipei'
@@ -31,7 +31,7 @@ jobs:
         run: |
           today=$(date +%Y-%m-%d)
           date '+Current Date: %F%n  |  Update Time: %H:%M:%S'  > README.md
-          curl 'https://wttr.in/taipei?F1T' > today.txt
+          curl 'https://wttr.in/taipei?F1QT' > today.txt
           week=$(date +%A)
           echo $week
           echo -e '\n```' >> README.md
