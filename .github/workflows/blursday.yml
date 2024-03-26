@@ -31,7 +31,7 @@ jobs:
           echo $week
           echo -e '\n```' >> README.md
           cat today.txt >> README.md
-          echo '\n```' >> README.md
+          echo '```' >> README.md
           
           cat README.md
           
