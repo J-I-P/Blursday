@@ -31,25 +31,25 @@ jobs:
           week=$(date +%A)
           
           echo $week
-          echo -e "```\n" >> README.md
+          echo -e "```" >> README.md
           echo -e "today.svg" >> README.md
-          echo -e "```\n" >> README.md
+          echo -e "```" >> README.md
           
-          if [ $week == 'Monday' ]; then
-            echo -e "\nIt's Monday Blue...QAQ" >> README.md
-          elif [ $week == 'Tuesday' ]; then
-            echo -e "\nTuesdays are the days when people really get the ball rolling. Fighting!!!" >> README.md
-          elif [ $week == 'Wednesday' ]; then
-            echo -e "\nHappy Hump Day!! Here’s only two days left until the weekend!!!" >> README.md
-          elif [ $week == 'Thursday' ]; then
-            echo -e "\nThirsty Thursday, but i don't drink..." >> README.md
-          elif [ $week == 'Friday' ]; then
-            echo -e "\nT.G.I.F. I'm in love <3" >> README.md
-          elif [ $week == 'Saturday ' ]; then
-            echo -e "\nOHHHHH~~ Happy Saturday!!! " >> README.md
-          else
-            echo -e "\nLazy Sunday... I don't want to go to work tomorrow..."
-          fi
+          # if [ $week == 'Monday' ]; then
+          #   echo -e "\nIt's Monday Blue...QAQ" >> README.md
+          # elif [ $week == 'Tuesday' ]; then
+          #   echo -e "\nTuesdays are the days when people really get the ball rolling. Fighting!!!" >> README.md
+          # elif [ $week == 'Wednesday' ]; then
+          #   echo -e "\nHappy Hump Day!! Here’s only two days left until the weekend!!!" >> README.md
+          # elif [ $week == 'Thursday' ]; then
+          #   echo -e "\nThirsty Thursday, but i don't drink..." >> README.md
+          # elif [ $week == 'Friday' ]; then
+          #   echo -e "\nT.G.I.F. I'm in love <3" >> README.md
+          # elif [ $week == 'Saturday ' ]; then
+          #   echo -e "\nOHHHHH~~ Happy Saturday!!! " >> README.md
+          # else
+          #   echo -e "\nLazy Sunday... I don't want to go to work tomorrow..."
+          # fi
           
           cat README.md
           
