@@ -1,10 +1,10 @@
 name: GitHub Self-Updating TODAY
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
+# on:
+#   schedule:
+#     - cron: "0 0 * * *"
 
-# on: [push]
+on: [push]
 
 jobs:
   report:
@@ -24,7 +24,7 @@ jobs:
       - name: Modify date
         run: |
           today=$(date +%Y-%m-%d)
-          date +%Y-%m-%d >> README.md
+          date '+Current Date: %F%nCurrent Time: %H:%M:%S' 
           curl 'https://wttr.in/taipei?F1T' > today.txt
           week=$(date +%A)
           echo $week
