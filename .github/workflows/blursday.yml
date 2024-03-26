@@ -30,9 +30,9 @@ jobs:
           week=$(date +%A)
           
           echo $week
-          echo "```" >> README.md
+          echo "\n```" >> README.md
           curl 'https://wttr.in/taipei?F0T' >> README.md
-          echo ```" >> README.md
+          echo "\n```" >> README.md
           
           # if [ $week == 'Monday' ]; then
           #   echo -e "\nIt's Monday Blue...QAQ" >> README.md
