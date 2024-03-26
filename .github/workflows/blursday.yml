@@ -25,7 +25,7 @@ jobs:
         run: |
           echo "Today is ..." > README.md
           date +%Y-%m-%d >> README.md
-          curl -X https://wttr.in/taipei?F&1 >> README.md
+          curl --location --request POST 'https://wttr.in/taipei?F=null&1=null' >> README.md
           week=$(date +%A)
           
           echo $week
