@@ -32,7 +32,7 @@ jobs:
           
           echo $week
           echo -e "```" >> README.md
-          echo -e "today.svg" >> README.md
+          curl 'https://wttr.in/taipei?F0T' >> README.md
           echo -e "```" >> README.md
           
           # if [ $week == 'Monday' ]; then
