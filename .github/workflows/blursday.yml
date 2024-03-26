@@ -26,14 +26,13 @@ jobs:
           echo "Today is ..." > README.md
           today=$(date +%Y-%m-%d)
           date +%Y-%m-%d >> README.md
-          # curl 'https://wttr.in/taipei?F0T' >> README.md
           curl 'https://wttr.in/taipei?F0T' > today.svg
           week=$(date +%A)
           
           echo $week
-          echo -e "```" >> README.md
+          echo "```" >> README.md
           curl 'https://wttr.in/taipei?F0T' >> README.md
-          echo -e "```" >> README.md
+          echo ```" >> README.md
           
           # if [ $week == 'Monday' ]; then
           #   echo -e "\nIt's Monday Blue...QAQ" >> README.md
