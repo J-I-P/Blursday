@@ -1,10 +1,10 @@
 name: GitHub Self-Updating TODAY
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
+# on:
+#   schedule:
+#     - cron: "0 0 * * *"
 
-# on: [push]
+on: [push]
 
 jobs:
   report:
@@ -13,6 +13,12 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+
+      - name: Check timezone
+        uses: MathRobin/timezone-action@v1.1
+        with:
+          timezoneLinux: 'Asia/Taipei'
+          timezoneMacos: 'Asia/Taipei'
       
       - name: Check out repository code
         # https://github.com/actions/checkout/tree/v4
@@ -24,7 +30,7 @@ jobs:
       - name: Modify date
         run: |
           today=$(date +%Y-%m-%d)
-          TZ="Asia/Taipei" date '+Current Date: %F%n  |  Update Time (Asia/Taipei): %H:%M:%S'  > README.md
+          date '+Current Date: %F%n  |  Update Time: %H:%M:%S'  > README.md
           curl 'https://wttr.in/taipei?F1T' > today.txt
           week=$(date +%A)
           echo $week
