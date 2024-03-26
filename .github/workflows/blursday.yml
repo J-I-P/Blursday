@@ -26,7 +26,7 @@ jobs:
           echo "Today is ..." > README.md
           today=$(date +%Y-%m-%d)
           date +%Y-%m-%d >> README.md
-          curl 'https://wttr.in/taipei?F0T' > today.txt
+          curl 'https://wttr.in/taipei?F1T' > today.txt
           week=$(date +%A)
           echo $week
           echo -e '\n```' >> README.md
