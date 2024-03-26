@@ -31,7 +31,7 @@ jobs:
         run: |
           today=$(date +%Y-%m-%d)
           date '+Current Date: %F%n  |  Update Time: %H:%M:%S'  > README.md
-          curl 'https://wttr.in/taipei?F1QT' > today.txt
+          curl 'https://wttr.in/{Taipei,Taichung}?F1qT' > today.txt
           week=$(date +%A)
           echo $week
           echo -e '\n```' >> README.md
