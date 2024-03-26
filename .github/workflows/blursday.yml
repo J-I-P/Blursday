@@ -26,7 +26,7 @@ jobs:
           echo "Today is ..." > README.md
           today=$(date +%Y-%m-%d)
           date +%Y-%m-%d >> README.md
-          curl 'https://wttr.in/taipei?F0T' >> README.md
+          # curl 'https://wttr.in/taipei?F0T' >> README.md
           curl 'https://wttr.in/taipei?F0T' > today.svg
           week=$(date +%A)
           
