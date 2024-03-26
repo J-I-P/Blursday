@@ -15,7 +15,7 @@ jobs:
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       
       - name: Check out repository code
-        # https://github.com/actions/checkout/tree/v3.0.2
+        # https://github.com/actions/checkout/tree/v4
         uses: actions/checkout@v4
       
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
@@ -25,7 +25,7 @@ jobs:
         run: |
           echo "Today is ..." > README.md
           date +%Y-%m-%d >> README.md
-          curl --location --request POST 'https://wttr.in/taipei?F=null&1=null' >> README.md
+          curl 'https://wttr.in/taipei?F1T' >> README.md
           week=$(date +%A)
           
           echo $week
