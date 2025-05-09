@@ -1,34 +1,12 @@
-Taipei
 
-                Shower in vicinity
-       .--.     +75(78) °F     
-    .-(    ).   ← 8 mph        
-   (___.__)__)  6 mi           
-                0.0 in         
-                                                       ┌─────────────┐                                                       
-┌──────────────────────────────┬───────────────────────┤  Thu 08 May ├───────────────────────┬──────────────────────────────┐
-│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
-├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
-│  _`/"".-.     Patchy rain ne…│  _`/"".-.     Patchy rain ne…│    \  /       Partly Cloudy  │    \  /       Partly Cloudy  │
-│   ,\_(   ).   +75(78) °F     │   ,\_(   ).   +77(80) °F     │  _ /"".-.     +78(82) °F     │  _ /"".-.     +75(78) °F     │
-│    /(___(__)  ← 8-10 mph     │    /(___(__)  ← 8-9 mph      │    \_(   ).   ↖ 3-4 mph      │    \_(   ).   ↖ 3-4 mph      │
-│      ‘ ‘ ‘ ‘  6 mi           │      ‘ ‘ ‘ ‘  6 mi           │    /(___(__)  6 mi           │    /(___(__)  6 mi           │
-│     ‘ ‘ ‘ ‘   0.0 in | 60%   │     ‘ ‘ ‘ ‘   0.0 in | 64%   │               0.0 in | 0%    │               0.0 in | 0%    │
-└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
-Taichung
+Sorry, we are running out of queries to the weather service at the moment.
+Here is the weather report for the default city (just to show you what it looks like).
+We will get new queries as soon as possible.
+You can follow https://x.com/igor_chubin for the updates.
+======================================================================================
 
-                Mist
-   _ - _ - _ -  +73(77) °F     
-    _ - _ - _   ↙ 3 mph        
-   _ - _ - _ -  1 mi           
-                0.0 in         
-                                                       ┌─────────────┐                                                       
-┌──────────────────────────────┬───────────────────────┤  Thu 08 May ├───────────────────────┬──────────────────────────────┐
-│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
-├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
-│     \   /     Sunny          │     \   /     Sunny          │  _`/"".-.     Patchy rain ne…│  _`/"".-.     Patchy rain ne…│
-│      .-.      +80(86) °F     │      .-.      +86(91) °F     │   ,\_(   ).   +78(84) °F     │   ,\_(   ).   +77(80) °F     │
-│   ― (   ) ―   ↘ 2-3 mph      │   ― (   ) ―   → 4-6 mph      │    /(___(__)  → 2-3 mph      │    /(___(__)  ↑ 1 mph        │
-│      `-’      6 mi           │      `-’      6 mi           │      ‘ ‘ ‘ ‘  6 mi           │      ‘ ‘ ‘ ‘  6 mi           │
-│     /   \     0.0 in | 0%    │     /   \     0.0 in | 0%    │     ‘ ‘ ‘ ‘   0.0 in | 100%  │     ‘ ‘ ‘ ‘   0.0 in | 70%   │
-└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
+Sorry, we are running out of queries to the weather service at the moment.
+Here is the weather report for the default city (just to show you what it looks like).
+We will get new queries as soon as possible.
+You can follow https://x.com/igor_chubin for the updates.
+======================================================================================
