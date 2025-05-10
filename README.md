@@ -1,17 +1,39 @@
-Current Date: 2025-05-09
-  |  Update Time: 08:06:46
+Current Date: 2025-05-10
+  |  Update Time: 08:06:29
 
 ```
+Taipei
 
-Sorry, we are running out of queries to the weather service at the moment.
-Here is the weather report for the default city (just to show you what it looks like).
-We will get new queries as soon as possible.
-You can follow https://x.com/igor_chubin for the updates.
-======================================================================================
+       .-.      Light rain
+      (   ).    +77(84) °F     
+     (___(__)   → 3 mph        
+      ‘ ‘ ‘ ‘   4 mi           
+     ‘ ‘ ‘ ‘    0.0 in         
+                                                       ┌─────────────┐                                                       
+┌──────────────────────────────┬───────────────────────┤  Sat 10 May ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│  _`/"".-.     Light rain sho…│      .-.      Light rain     │  _`/"".-.     Patchy rain ne…│  _`/"".-.     Patchy rain ne…│
+│   ,\_(   ).   +75(80) °F     │     (   ).    +73(77) °F     │   ,\_(   ).   +71(77) °F     │   ,\_(   ).   +71(77) °F     │
+│    /(___(__)  ↘ 3-4 mph      │    (___(__)   ↙ 3-4 mph      │    /(___(__)  ← 4-6 mph      │    /(___(__)  ← 8-11 mph     │
+│      ‘ ‘ ‘ ‘  6 mi           │     ‘ ‘ ‘ ‘   5 mi           │      ‘ ‘ ‘ ‘  6 mi           │      ‘ ‘ ‘ ‘  6 mi           │
+│     ‘ ‘ ‘ ‘   0.1 in | 100%  │    ‘ ‘ ‘ ‘    0.1 in | 100%  │     ‘ ‘ ‘ ‘   0.0 in | 100%  │     ‘ ‘ ‘ ‘   0.0 in | 100%  │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
+Taichung
 
-Sorry, we are running out of queries to the weather service at the moment.
-Here is the weather report for the default city (just to show you what it looks like).
-We will get new queries as soon as possible.
-You can follow https://x.com/igor_chubin for the updates.
-======================================================================================
+     \  /       Partly cloudy
+   _ /"".-.     +78(84) °F     
+     \_(   ).   ↖ 2 mph        
+     /(___(__)  6 mi           
+                0.0 in         
+                                                       ┌─────────────┐                                                       
+┌──────────────────────────────┬───────────────────────┤  Sat 10 May ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│  _`/"".-.     Light rain sho…│      .-.      Light rain     │  _`/"".-.     Light rain sho…│      .-.      Moderate rain  │
+│   ,\_(   ).   +80(87) °F     │     (   ).    +80(86) °F     │   ,\_(   ).   +75(78) °F     │     (   ).    +71(77) °F     │
+│    /(___(__)  ↘ 5-7 mph      │    (___(__)   ↓ 6-7 mph      │    /(___(__)  ↓ 6-10 mph     │    (___(__)   ↓ 3-5 mph      │
+│      ‘ ‘ ‘ ‘  6 mi           │     ‘ ‘ ‘ ‘   5 mi           │      ‘ ‘ ‘ ‘  6 mi           │   ‚‘‚‘‚‘‚‘    4 mi           │
+│     ‘ ‘ ‘ ‘   0.0 in | 100%  │    ‘ ‘ ‘ ‘    0.0 in | 100%  │     ‘ ‘ ‘ ‘   0.0 in | 100%  │   ‚’‚’‚’‚’    0.1 in | 100%  │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
 ```
