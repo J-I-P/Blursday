@@ -1,12 +1,34 @@
+Taipei
 
-Sorry, we are running out of queries to the weather service at the moment.
-Here is the weather report for the default city (just to show you what it looks like).
-We will get new queries as soon as possible.
-You can follow https://x.com/igor_chubin for the updates.
-======================================================================================
+     \  /       Partly cloudy
+   _ /"".-.     +77(82) °F     
+     \_(   ).   ← 6 mph        
+     /(___(__)  6 mi           
+                0.0 in         
+                                                       ┌─────────────┐                                                       
+┌──────────────────────────────┬───────────────────────┤  Thu 05 Jun ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│  _`/"".-.     Patchy rain ne…│    \  /       Partly Cloudy  │    \  /       Partly Cloudy  │  _`/"".-.     Patchy rain ne…│
+│   ,\_(   ).   +77(82) °F     │  _ /"".-.     +80(84) °F     │  _ /"".-.     +78(82) °F     │   ,\_(   ).   +75(80) °F     │
+│    /(___(__)  ← 6-7 mph      │    \_(   ).   ← 8-9 mph      │    \_(   ).   ← 6-8 mph      │    /(___(__)  ← 6-8 mph      │
+│      ‘ ‘ ‘ ‘  6 mi           │    /(___(__)  6 mi           │    /(___(__)  6 mi           │      ‘ ‘ ‘ ‘  6 mi           │
+│     ‘ ‘ ‘ ‘   0.0 in | 83%   │               0.0 in | 0%    │               0.0 in | 0%    │     ‘ ‘ ‘ ‘   0.0 in | 64%   │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
+Taichung
 
-Sorry, we are running out of queries to the weather service at the moment.
-Here is the weather report for the default city (just to show you what it looks like).
-We will get new queries as soon as possible.
-You can follow https://x.com/igor_chubin for the updates.
-======================================================================================
+     \  /       Partly cloudy
+   _ /"".-.     +82(95) °F     
+     \_(   ).   ↘ 2 mph        
+     /(___(__)  4 mi           
+                0.0 in         
+                                                       ┌─────────────┐                                                       
+┌──────────────────────────────┬───────────────────────┤  Thu 05 Jun ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│  _`/"".-.     Light rain sho…│  _`/"".-.     Light rain sho…│  _`/"".-.     Light rain sho…│               Mist           │
+│   ,\_(   ).   +78(86) °F     │   ,\_(   ).   +80(87) °F     │   ,\_(   ).   +78(84) °F     │  _ - _ - _ -  +75(80) °F     │
+│    /(___(__)  ↘ 2-3 mph      │    /(___(__)  ↘ 3-5 mph      │    /(___(__)  ↘ 1-2 mph      │   _ - _ - _   ↘ 1 mph        │
+│      ‘ ‘ ‘ ‘  6 mi           │      ‘ ‘ ‘ ‘  6 mi           │      ‘ ‘ ‘ ‘  6 mi           │  _ - _ - _ -  1 mi           │
+│     ‘ ‘ ‘ ‘   0.0 in | 100%  │     ‘ ‘ ‘ ‘   0.0 in | 100%  │     ‘ ‘ ‘ ‘   0.0 in | 100%  │               0.0 in | 71%   │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
