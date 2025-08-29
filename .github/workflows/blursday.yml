@@ -3,6 +3,19 @@ name: GitHub Self-Updating TODAY
 on:
   schedule:
     - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      Today:
+        type: choice
+        required: true
+        options:
+          - 'Mon'
+          - 'Tus'
+          - 'Wed'
+          - 'Thu'
+          - 'Fri'
+          - 'Sat'
+          - 'Sun'
 
 # on: [push]
 
