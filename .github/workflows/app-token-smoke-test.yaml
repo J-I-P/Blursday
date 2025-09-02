@@ -34,7 +34,7 @@ jobs:
             
       - name: Verify installation can see this repo
         env:
-          GH_TOKEN: ${{ steps.app.outputs.token }}  # 用App token查安裝可見的repo
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}  # 用App token查安裝可見的repo
           THIS_REPO: ${{ github.repository }}       # 例如 J-I-P/Blursday
         run: |
           echo "Checking installation repositories for: $THIS_REPO"
