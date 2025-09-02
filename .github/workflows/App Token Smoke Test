@@ -1,0 +1,30 @@
+# .github/workflows/app-token-smoke-test.yml
+name: App Token Smoke Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read   # 基本即可；真正更新 secrets 用 GH_TOKEN（App token）去做
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub App token
+        id: app
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Install GitHub CLI
+        run: sudo apt-get update && sudo apt-get install -y gh
+
+      - name: Update a repo secret with the App token
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}  # 這就是 App 的 installation token
+        run: |
+          VALUE="hello-from-app-$(date +%s)"
+          echo -n "$VALUE" | gh secret set TEST_BY_APP --repo "${{ github.repository }}"
+          echo "Wrote TEST_BY_APP=$VALUE"
