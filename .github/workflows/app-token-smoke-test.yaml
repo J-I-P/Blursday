@@ -11,6 +11,16 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Sanity check private key format (no secret printed)
+        run: |
+          cat > key.pem <<'EOF'
+          ${{ secrets.APP_PRIVATE_KEY }}
+          EOF
+          head -n1 key.pem | sed 's/./*/g'
+          tail -n1 key.pem | sed 's/./*/g'
+          openssl pkey -in key.pem -noout >/dev/null 2>&1 || { echo "PEM parse FAILED"; exit 1; }
+          echo "PEM parse OK"
+    
       - name: Generate GitHub App token
         id: app
         uses: tibdex/github-app-token@v2
