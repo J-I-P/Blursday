@@ -31,6 +31,22 @@ jobs:
       - name: Install GitHub CLI
         run: sudo apt-get update && sudo apt-get install -y gh
 
+            
+      - name: Verify installation can see this repo
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}  # 用App token查安裝可見的repo
+          THIS_REPO: ${{ github.repository }}       # 例如 J-I-P/Blursday
+        run: |
+          echo "Checking installation repositories for: $THIS_REPO"
+          gh api /installation/repositories --paginate | jq -r '.repositories[].full_name' | tee repos.txt
+          if ! grep -qx "$THIS_REPO" repos.txt; then
+            echo "❌ GitHub App installation does NOT have access to $THIS_REPO"
+            echo "👉 請到 App 設定頁：Install App → 勾選 $THIS_REPO（或 All repositories）"
+            exit 1
+          fi
+          echo "✅ Installation has access to $THIS_REPO"
+
+
       - name: Update a repo secret with the App token
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}  # 這就是 App 的 installation token
