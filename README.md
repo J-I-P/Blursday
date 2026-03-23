@@ -1,17 +1,39 @@
-Current Date: 2026-03-22
-  |  Update Time: 08:10:12
+Current Date: 2026-03-23
+  |  Update Time: 08:12:10
 
 ```
+taipei
 
-Sorry, we are running out of queries to the weather service at the moment.
-Here is the weather report for the default city (just to show you what it looks like).
-We will get new queries as soon as possible.
-You can follow https://x.com/igor_chubin for the updates.
-======================================================================================
+     \  /       Partly cloudy
+   _ /"".-.     21 °C          
+     \_(   ).   ↓ 4 km/h       
+     /(___(__)  6 km           
+                0.0 mm         
+                                                       ┌─────────────┐                                                       
+┌──────────────────────────────┬───────────────────────┤  Mon 23 Mar ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│  _`/"".-.     Patchy rain ne…│  _`/"".-.     Patchy rain ne…│  _`/"".-.     Patchy rain ne…│  _`/"".-.     Patchy rain ne…│
+│   ,\_(   ).   +23(25) °C     │   ,\_(   ).   +26(27) °C     │   ,\_(   ).   +22(25) °C     │   ,\_(   ).   22 °C          │
+│    /(___(__)  ↙ 5-6 km/h     │    /(___(__)  ↓ 12-13 km/h   │    /(___(__)  ↙ 11-13 km/h   │    /(___(__)  ↙ 10-12 km/h   │
+│      ‘ ‘ ‘ ‘  10 km          │      ‘ ‘ ‘ ‘  10 km          │      ‘ ‘ ‘ ‘  10 km          │      ‘ ‘ ‘ ‘  10 km          │
+│     ‘ ‘ ‘ ‘   0.0 mm | 71%   │     ‘ ‘ ‘ ‘   0.0 mm | 77%   │     ‘ ‘ ‘ ‘   0.1 mm | 100%  │     ‘ ‘ ‘ ‘   0.0 mm | 83%   │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
+taichung
 
-Sorry, we are running out of queries to the weather service at the moment.
-Here is the weather report for the default city (just to show you what it looks like).
-We will get new queries as soon as possible.
-You can follow https://x.com/igor_chubin for the updates.
-======================================================================================
+                Mist
+   _ - _ - _ -  19 °C          
+    _ - _ - _   ↓ 7 km/h       
+   _ - _ - _ -  2 km           
+                0.0 mm         
+                                                       ┌─────────────┐                                                       
+┌──────────────────────────────┬───────────────────────┤  Mon 23 Mar ├───────────────────────┬──────────────────────────────┐
+│            Morning           │             Noon      └──────┬──────┘     Evening           │             Night            │
+├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│     \   /     Sunny          │     \   /     Sunny          │     \   /     Sunny          │     \   /     Clear          │
+│      .-.      +24(25) °C     │      .-.      +26(27) °C     │      .-.      +23(25) °C     │      .-.      21 °C          │
+│   ― (   ) ―   ↘ 6-7 km/h     │   ― (   ) ―   ↘ 14-17 km/h   │   ― (   ) ―   ↓ 13-16 km/h   │   ― (   ) ―   ↓ 11-14 km/h   │
+│      `-’      10 km          │      `-’      10 km          │      `-’      10 km          │      `-’      10 km          │
+│     /   \     0.0 mm | 0%    │     /   \     0.0 mm | 0%    │     /   \     0.0 mm | 0%    │     /   \     0.0 mm | 0%    │
+└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
 ```
