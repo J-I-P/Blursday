@@ -50,16 +50,16 @@ jobs:
             printf '**最後更新：** %s\n\n' "$update_time"
             printf '## Taipei（台北）\n\n'
             printf '```\n'
-            curl -s 'https://wttr.in/Taipei?F1qT'
+            curl -fsS 'https://wttr.in/Taipei?F1qT'
             printf '```\n\n'
             printf '## Taichung（台中）\n\n'
             printf '```\n'
-            curl -s 'https://wttr.in/Taichung?F1qT'
+            curl -fsS 'https://wttr.in/Taichung?F1qT'
             printf '```\n\n'
             printf '> 天氣資料來源：[wttr.in](https://wttr.in)\n'
           } > README.md
 
-          curl -s 'https://wttr.in/{Taipei,Taichung}?F1qT' > today.txt
+          curl -fsS 'https://wttr.in/{Taipei,Taichung}?F1qT' > today.txt
 
           cat README.md
           
